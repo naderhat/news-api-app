@@ -14,11 +14,12 @@ import {
   MatSidenavModule,
   MatListModule
 } from '@angular/material';
+import { NewsApiService } from 'src/app/news-api.service';
 
 @NgModule({
   declarations: [AppComponent],
   imports: [BrowserModule],
-  providers: [],
+  providers: [NewsApiService],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
