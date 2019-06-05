@@ -15,14 +15,14 @@ export class NewsApiService {
     );
   }
 
-  initArticle() {
+  initArticles() {
     return this.http.get(
       'https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=' +
         this.api_key
     );
   }
 
-  getArticleByID(source: String) {
+  getArticlesByID(source: String) {
     return this.http.get(
       'https://newsapi.org/v2/top-headlines?sources=' +
         source +
