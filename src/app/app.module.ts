@@ -22,9 +22,10 @@ import { MatToolbarComponent } from './mat-toolbar/mat-toolbar.component';
 import { MenuComponent } from './menu/menu.component';
 import { SidenavCotainerComponent } from './sidenav-cotainer/sidenav-cotainer.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
-  declarations: [AppComponent, MatToolbarComponent, MenuComponent, SidenavCotainerComponent, SidenavComponent],
+  declarations: [AppComponent, MatToolbarComponent, MenuComponent, SidenavCotainerComponent, SidenavComponent, CardComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
