@@ -25,6 +25,7 @@ import { SidenavComponent } from './sidenav/sidenav.component';
 import { CardComponent } from './card/card.component';
 import { CardActionsComponent } from './card-actions/card-actions.component';
 import { CardHeaderComponent } from './card-header/card-header.component';
+import { CardContentComponent } from './card-content/card-content.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { CardHeaderComponent } from './card-header/card-header.component';
     SidenavComponent,
     CardComponent,
     CardActionsComponent,
-    CardHeaderComponent
+    CardHeaderComponent,
+    CardContentComponent
   ],
   imports: [
     BrowserModule,
