@@ -1,20 +1,19 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MatToolbarComponent } from './mat-toolbar.component';
+import { ToolbarComponent } from './toolbar.component';
 
 describe('MatToolbarComponent', () => {
-  let component: MatToolbarComponent;
-  let fixture: ComponentFixture<MatToolbarComponent>;
+  let component: ToolbarComponent;
+  let fixture: ComponentFixture<ToolbarComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MatToolbarComponent ]
-    })
-    .compileComponents();
+      declarations: [ToolbarComponent]
+    }).compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MatToolbarComponent);
+    fixture = TestBed.createComponent(ToolbarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
