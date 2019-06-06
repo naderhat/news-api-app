@@ -14,7 +14,7 @@ export class AppComponent {
     console.log('app component constructor called');
   }
 
-  OnInit() {
+  ngOnInit() {
     // load articles
     this.newsapi
       .initArticles()
