@@ -18,9 +18,10 @@ import {
   MatStepperModule
 } from '@angular/material';
 import { NewsApiService } from 'src/app/news-api.service';
+import { MatToolbarComponent } from './mat-toolbar/mat-toolbar.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, MatToolbarComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
