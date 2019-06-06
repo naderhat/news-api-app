@@ -23,9 +23,10 @@ import { MenuComponent } from './menu/menu.component';
 import { SidenavCotainerComponent } from './sidenav-cotainer/sidenav-cotainer.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { CardComponent } from './card/card.component';
+import { CardActionsComponent } from './card-actions/card-actions.component';
 
 @NgModule({
-  declarations: [AppComponent, MatToolbarComponent, MenuComponent, SidenavCotainerComponent, SidenavComponent, CardComponent],
+  declarations: [AppComponent, MatToolbarComponent, MenuComponent, SidenavCotainerComponent, SidenavComponent, CardComponent, CardActionsComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
