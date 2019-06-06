@@ -21,9 +21,10 @@ import { NewsApiService } from 'src/app/news-api.service';
 import { MatToolbarComponent } from './mat-toolbar/mat-toolbar.component';
 import { MenuComponent } from './menu/menu.component';
 import { SidenavCotainerComponent } from './sidenav-cotainer/sidenav-cotainer.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
 
 @NgModule({
-  declarations: [AppComponent, MatToolbarComponent, MenuComponent, SidenavCotainerComponent],
+  declarations: [AppComponent, MatToolbarComponent, MenuComponent, SidenavCotainerComponent, SidenavComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
