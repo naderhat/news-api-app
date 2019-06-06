@@ -19,9 +19,10 @@ import {
 } from '@angular/material';
 import { NewsApiService } from 'src/app/news-api.service';
 import { MatToolbarComponent } from './mat-toolbar/mat-toolbar.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
-  declarations: [AppComponent, MatToolbarComponent],
+  declarations: [AppComponent, MatToolbarComponent, MenuComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
