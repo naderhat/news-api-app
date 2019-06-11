@@ -20,7 +20,7 @@ import {
 import { NewsApiService } from 'src/app/news-api.service';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { MenuComponent } from './menu/menu.component';
-import { SidenavCotainerComponent } from './sidenav-cotainer/sidenav-cotainer.component';
+import { SidenavContainerComponent } from './sidenav-cotainer/sidenav-container.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { CardComponent } from './card/card.component';
 import { CardActionsComponent } from './card-actions/card-actions.component';
@@ -32,7 +32,7 @@ import { CardContentComponent } from './card-content/card-content.component';
     AppComponent,
     ToolbarComponent,
     MenuComponent,
-    SidenavCotainerComponent,
+    SidenavContainerComponent,
     SidenavComponent,
     CardComponent,
     CardActionsComponent,

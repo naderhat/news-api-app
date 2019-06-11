@@ -1,5 +1,8 @@
-<app-toolbar></app-toolbar>
+<app-toolbar [matMenu]="appMenu"></app-toolbar>
 
-<app-menu></app-menu>
+<mat-menu #appMenu="matMenu">
+  <button mat-menu-item> Settings </button>
+  <button mat-menu-item> Help </button>
+</mat-menu>
 
-<app-sidenav-container></app-sidenav-container>
+<app-sidenav-container [mSources]="mSources"></app-sidenav-container>
