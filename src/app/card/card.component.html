@@ -1,0 +1,9 @@
+<mat-card class="example-card" *ngFor="let article of mArticles">
+  <app-card-header [articleTitle]="article.title" [articleSourceName]="article.source.name" [articleSourceId]="article.source.id"></app-card-header>
+
+  <img mat-card-image src="{{article.urlToImage}}" alt="" class="img-article">
+
+  <app-card-content [articleDescription]="article.description"></app-card-content>
+
+  <app-card-actions [articleUrl]="article.url"></app-card-actions>
+</mat-card>
