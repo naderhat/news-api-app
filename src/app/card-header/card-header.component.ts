@@ -12,6 +12,9 @@ export class CardHeaderComponent implements OnInit {
   @Input()
   articleSourceName;
 
+  @Input()
+  articleSourceId;
+
   constructor() {}
 
   ngOnInit() {}
